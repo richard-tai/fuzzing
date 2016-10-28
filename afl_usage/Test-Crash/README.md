@@ -15,5 +15,6 @@
 	```
 
 ### Screenshot
-![](screenshot/afl-mon.png)
+![Init](screenshot/afl-mon.png)
+![Got crash](screenshot/afl-crash.png)
 
