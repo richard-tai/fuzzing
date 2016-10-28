@@ -1,4 +1,4 @@
-
+### Usage:
 0. Compile code with afl-gcc
 	```
 	afl-gcc crash.c -o crash
