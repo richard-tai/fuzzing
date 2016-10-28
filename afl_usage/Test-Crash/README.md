@@ -1,13 +1,15 @@
 
 0. Compile code with afl-gcc
-```
-afl-gcc crash.c -o crash
-```
+	```
+	afl-gcc crash.c -o crash
+	```
 0. Create initial test case
-```
-echo "helloworld" > testcase/helloworld
-```
+	```
+	mkdir testcase
+	echo "helloworld" > testcase/helloworld
+	mkdir output
+	```
 0. Run
-```
-afl-fuzz -i testcase -o output/ ./crash @@
-```
+	```
+	afl-fuzz -i testcase -o output/ ./crash @@
+	```
